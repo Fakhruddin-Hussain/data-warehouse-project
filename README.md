@@ -15,3 +15,11 @@ An end-to-end SQL data warehouse project implementing Bronze, Silver, and Gold l
 
 ### Setup & Run
 1. Clone the repository:
+bash
+git clone 
+cd data-warehouse-project
+2. Copy the environment variables:
+cp .env.example .env
+3. Start the services:
+docker compose up -d
+4. Access **pgAdmin** at `http://localhost:8080`.
