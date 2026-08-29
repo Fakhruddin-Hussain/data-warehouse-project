@@ -1,0 +1,15 @@
+# Environment & Secrets
+.env
+
+# Windows / macOS system files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor configurations
+.vscode/
+.idea/
+
+# Database dumps / temp logs
+*.log
+*.bak
