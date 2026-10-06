@@ -22,4 +22,4 @@ cd data-warehouse-project
 cp .env.example .env
 3. Start the services:
 docker compose up -d
-4. Access **pgAdmin** at `http://localhost:8080`.
+4. Access **pgAdmin** at `http://localhost:5050`.
