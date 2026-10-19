@@ -50,7 +50,7 @@ CRM sales, customers, and products join ERP birthday, country, and category data
 
 CRM holds transactions and product history. ERP adds customer demographics, location, and product categories. Gold joins them on business keys (`cst_key` / `cid`, `prd_key` / category `id`).
 
-![Integration model](docs/integration_model.png)
+![Integration model](docs/Integration_model.png)
 
 ---
 
