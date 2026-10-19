@@ -1,0 +1,96 @@
+# ==============================================================================
+# Git Ignore Configuration for SQL Data Warehouse Project
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment & Secrets
+# ------------------------------------------------------------------------------
+# Never commit credentials, connection strings, or sensitive passwords
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+credentials.json
+secrets/
+
+# ------------------------------------------------------------------------------
+# 2. Operating System Files
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ------------------------------------------------------------------------------
+# 3. Editor & IDE Settings
+# ------------------------------------------------------------------------------
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (DataGrip, PyCharm, IntelliJ)
+.idea/
+
+# Sublime Text / Atom / Vim
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ------------------------------------------------------------------------------
+# 4. Database Dumps, Backups & Local Data
+# ------------------------------------------------------------------------------
+# PostgreSQL & database dumps
+*.dump
+*.sql.gz
+*.tar
+*.bak
+*.backup
+pgdata/
+pgadmin_data/
+
+# ------------------------------------------------------------------------------
+# 5. Logs & Temporary Files
+# ------------------------------------------------------------------------------
+*.log
+logs/
+*.tmp
+*.temp
+tmp/
+temp/
+scratch/
+
+# ------------------------------------------------------------------------------
+# 6. Python & Notebook Artifacts (ETL / Analysis Scripts)
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
